@@ -17,7 +17,7 @@ app.add_middleware(
 def query_lexi(question: str):
     try:
         # Simulating AI Response (Replace with OpenAI API or your ML model)
-        response = {"answer": f"Processing question: {question}. (AI response placeholder)"}
+        response = {"answer": "(AI response placeholder)"}
         return response
     except Exception as e:
         return {"answer": f"Error processing request: {str(e)}"}
