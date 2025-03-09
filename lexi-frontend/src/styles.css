@@ -1,0 +1,134 @@
+/* Global styles */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.header-container {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat container */
+.chat-container {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Message bubbles */
+.message {
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 70%;
+    margin: 5px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* User messages */
+.user-message {
+    background-color: #0056b3;
+    color: white;
+    align-self: flex-end;
+}
+
+/* Bot messages */
+.bot-message {
+    background-color: #f1f1f1;
+    color: #333;
+    align-self: flex-start;
+}
+
+/* Bot Avatar */
+/* Chatbot Messages */
+.bot-message::before {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+
+/* Typing Indicator */
+.typing-indicator {
+    font-size: 14px;
+    font-style: italic;
+    color: #777;
+    align-self: flex-start;
+    margin: 5px 10px;
+}
+
+/* Input area */
+.input-container {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    left: 25%;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: #f8f9fa;
+}
+
+.input-container button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.input-container button:hover {
+    background-color: #003366;
+}
+/* Mission Statement Styling */
+.mission-container {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.mission-container h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
