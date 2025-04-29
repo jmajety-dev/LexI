@@ -13,15 +13,16 @@ load_dotenv(dotenv_path)
 
 
 # Azure AI Search credentials
-AZURE_SEARCH_ENDPOINT = "https://lexi-rag-search.search.windows.net"
-AZURE_SEARCH_KEY = "VU902PCG5YepHDEYMr3Jzx4UPSwxl692oLpqBb3FUVAzSeCrK0Cr"
-AZURE_SEARCH_INDEX = "lexi-immigration-rag"
+AZURE_SEARCH_ENDPOINT = os.getenv("AZURE_SEARCH_ENDPOINT")
+AZURE_SEARCH_KEY = os.getenv("AZURE_SEARCH_KEY")
+AZURE_SEARCH_INDEX = os.getenv("AZURE_SEARCH_INDEX")
 
 # Azure OpenAI credentials
 AZURE_OPENAI_DEPLOYMENT="gpt-4-turbo"
 AZURE_OPENAI_EMBEDDING_MODEL = "text-embedding-ada-002"
 AZURE_OPENAI_MAX_EMBEDDINGS = 5 # Free-tier limit
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+openai.api_key = OPENAI_API_KEY
 
 # Set OpenAI API Key explicitly
 openai.api_key = OPENAI_API_KEY
