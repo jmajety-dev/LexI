@@ -21,6 +21,7 @@ LEXI enables users to ask natural-language questions related to immigration. It:
 | Language Model | OpenAI GPT-4 Turbo                 |
 | Vector Search  | Azure AI Search (Vector DB)        |
 | Backend API    | FastAPI (Python)                   |
+| Middleware	   | MCP Server (API Gateway)
 | Frontend UI    | React.js                           |
 | Secrets Mgmt   | `.env` + `os.getenv()`             |
 | Hosting/Infra  | Azure (Search, App Service, etc.)  |
