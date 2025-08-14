@@ -120,15 +120,6 @@ Sources Found: 8
 - ✅ **Legal hierarchy awareness** for proper ranking
 - ✅ **95% citation accuracy** with validation agent
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/enhancement`)
-3. Test with legal scenarios
-4. Submit pull request
-
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) file for details.
