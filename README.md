@@ -12,7 +12,7 @@
 LexI is a specialized Retrieval-Augmented Generation (RAG) system designed for legal research. It uses **6 AI agents** working together via **MCP (Model Context Protocol)** to provide accurate, cited legal responses with domain-specific optimization.
 
 ### ⚡ Key Results
-- **70% accuracy improvement** over baseline RAG systems
+- **70% accuracy improvement** over baseline systems
 - **Multi-strategy retrieval**: Semantic + Keyword + Citation search
 - **Legal hierarchy awareness**: Proper authority ranking
 - **Real-time processing**: < 1.2s average response time
