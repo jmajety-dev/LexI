@@ -108,8 +108,8 @@ Sources Found: 8
 
 ## 📈 Why LexI?
 
-### Traditional RAG Problems
-- Generic embeddings miss legal nuances
+### Traditional Problems
+- Generic LLMs miss legal nuances
 - Single retrieval strategy limits coverage
 - No legal authority understanding
 - Poor citation accuracy
